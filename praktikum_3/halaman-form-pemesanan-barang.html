@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agas Triawan - Praktikum 03</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right {
+            flex: 1;
+            padding: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .form label {
+            text-align: right;
+        }
+
+        .form input[type="text"],
+        .form input[type="email"],
+        .form input[type="number"],
+        .form select,
+        .form textarea {
+            width: 100%;
+        }
+
+        .form input[type="text"],
+        .form input[type="email"],
+        .form input[type="number"],
+        .form select,
+        .form textarea,
+        .form label {
+            margin-bottom: 10px;
+        }
+
+        .checkbox-container {
+            display: inline-block;
+        }
+
+        button {
+            color: blue;
+        }
+
+        button[type="submit"] {
+            background-color: aqua;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div
+        style="background-color: #ffffff; color: #fff; padding: 10px; display: flex; justify-content: space-between; align-items: center;">
+        <nav style="background-color: azure;">
+            <a href="">Home</a>
+            <a href="">Generate Link</a>
+            <a href="">Transaction History</a>
+            <a href="">Police</a>
+            <a href="">Logout</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="left">
+            <img src="https://www.apple.com/v/macbook-air-m1/e/images/meta/macbook-air_overview__15sjf4iagj6q_og.png?202308180052"
+                alt="" />
+            <button>Upload Picture</button>
+        </div>
+        <div class="right">
+            <div class="form">
+                <form action="">
+                    <label for="title">Title Here</label>
+                    <input type="text" id="title" placeholder="MacBook Air $800" />
+
+                    <label for="description">Description</label>
+                    <textarea id="description" cols="30" rows="10">Year : 2024
+Model :
+Condition : Mint</textarea>
+
+                    <label for="account">Account Number</label>
+                    <input type="text" id="account" placeholder="123-456-789-0" />
+
+                    <label for="bank">Bank</label>
+                    <select id="bank">
+                        <option value="hbsc">HBSC</option>
+                        <option value="mandiri">MANDIRI</option>
+                        <option value="bsi">BSI</option>
+                    </select>
+
+                    <label for="account_holder">Account Holder</label>
+                    <input type="text" id="account_holder" placeholder="Name Here" />
+
+                    <label for="transaction">Transaction</label>
+                    <input type="number" id="transaction" placeholder="1" />
+                    <p>* if the transaction is for 3 person, Choose 3 from the drop-down list</p>
+
+
+                    <input type="checkbox" id="phone" /> <label for="phone">Send to mobile Phone</label>
+                    <br>
+                    <input type="checkbox" id="email" /> <label for="email">Send to mobile Email</label>
+
+
+                    <br>
+                    <br>
+                    <label for="mobile">Send to Mobile Phone</label>
+                    <input type="text" id="mobile" placeholder="1234567890, 1234567891" />
+
+                    <label for="send_email">Send to Email</label>
+                    <input type="email" id="send_email" placeholder="agastriawan55@gmail.com" />
+
+                    <button type="submit">Generate Nabr Link</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
