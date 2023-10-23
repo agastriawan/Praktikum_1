@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contoh Layout HTML</title>
+    <style>
+        header {
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: green;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        section {
+            background-color: orange;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        article {
+            flex: 4; 
+            background-color: blue;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        aside {
+            flex: 1; 
+            background-color: red;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <nav>
+        <h2>Navbar</h2>
+    </nav>
+
+    <div class="row">
+        <article>
+            <h2>Article</h2>
+            <div class="article-container">
+                <section>
+                    <h3>Section 1</h3>
+                    <p>Isi dari Section 1.</p>
+                </section>
+                <section>
+                    <h3>Section 2</h3>
+                    <p>Isi dari Section 2.</p>
+                </section>
+                <section>
+                    <h3>Section 3</h3>
+                    <p>Isi dari Section 3.</p>
+                </section>
+            </div>
+        </article>
+
+        <aside>
+            <h2>Aside</h2>
+            <p>Isi dari Aside.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>
