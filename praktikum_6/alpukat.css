@@ -1,0 +1,31 @@
+    h1{
+        color: aqua;
+        background-color: yellow;
+        text-align: center;
+
+    }
+    body{
+        background-color: rgb(243, 255, 219);
+    }
+    p{
+        text-align: justify;
+        width: fit-content;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }   
+    .cod{
+        margin: auto;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cod p{
+        background-color: aqua;
+        border: 1px dotted black;
+        text-align: center;
+        font-weight: bold;
+        color: yellow;
+    }

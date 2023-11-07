@@ -1,0 +1,64 @@
+    body{
+        background-color: rgb(160, 240, 140);
+    }
+    h1{
+        color: brown;
+        text-align: center;
+    }
+    #header{
+        background-color: rgb(135, 222, 222);
+        height: 110px;
+    }
+    blockquote{
+        text-align: center;
+        background-color: rgb(81, 255, 0);
+    }
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #nav li{
+        float: left;
+        list-style: none;
+    }
+    #nav li a{
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        font-weight: bold;
+    }
+    .isi{
+        background-color: darkolivegreen;
+        width: 95%;
+        border: 3px solid black;
+        margin: 20px;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }
+    #profil{
+        background-color: darkolivegreen;
+        width: 95%;
+        border: 3px solid black;
+        margin: 20px;
+    }
+    #beternak{
+        background-color: darkolivegreen;
+        width: 95%;
+        border: 3px solid black;
+        margin: 20px;
+    }
+    .koleksi{
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+    .promo{
+        color: black;
+        width: 50%;
+        background-color: darkolivegreen;
+        border: 3px solid black;
+    }
