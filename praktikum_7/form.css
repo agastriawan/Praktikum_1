@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.my-form {
+  margin: auto;
+  width: 40%;
+  border: 3px solid rgba(205, 207, 203, 0.445);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.my-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.my-form input {
+  width: 55%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.form-buttons {
+  margin-top: 5vh;
+  margin-left: 12.7vh;
+}
+
+.btn-save,
+.btn-cancel {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-save {
+  margin-left: 90px;
+  background-color: #2894a7;
+  color: white;
+  border: none;
+  margin-right: 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 0;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.navbar ul li{
+  list-style: none;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.container{
+  margin-top: 15vh;
+}
+
+.form-group{
+  display: flex;
+  padding: 10px 5px 10px 5px;
+}
+
+.label{
+  width: 125px;
+  text-align: right;
+  padding-right: 37px;
+}
