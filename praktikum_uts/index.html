@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form with Buttons</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Registrasi Kendaraan Anda</h1>
+
+    <div class="container">
+        <form class="my-form">
+
+            <div class="form-group">
+                <div class="label">
+                    <label class="label-bold" for="status">Status</label>
+                </div>
+                <input class="input" type="radio" id="mahasiswa" name="status" required> <label
+                    for="mahasiswa">Mahasiswa</label>
+                <input class="input" type="radio" id="dosen" name="status" required> <label for="dosen">Dosen</label>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                    <label class="label-bold" for="nim/nidm">NIM/NIDM</label>
+                </div>
+                <input class="input" type="number" id="nim/nidm" name="nim/nidm" required>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                    <label class="label-bold" for="nama">Nama Lengkap</label>
+                </div>
+                <input class="input" type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                    <label class="label-bold" for="prodi">Prodi</label>
+                </div>
+                <select name="prodi" id="prodi" required>
+                    <option value="">Pilih Prodi</option>
+                    <option value="TI">Teknik Informatika</option>
+                    <option value="SI">Sistem Informasi</option>
+                    <option value="BD">Bisnis Digital</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                  <b><label for="jenis_kendaraan"> Kendaraan </label> </b>
+                </div>
+                <input class="input" type="radio" id="motor" name="jenis_kendaraan" required> <label for="motor">Motor</label>
+                <input class="input" type="radio" id="mobil" name="jenis_kendaraan" required> <label for="mobil">Mobil</label>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                    <label class="label-bold" for="no_pol">No Pol</label>
+                </div>
+                <input class="input" type="text" id="no_pol" name="no_pol" required>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                    <label class="label-bold" for="merk">Merk</label>
+                </div>
+                <input class="input" type="text" id="merk" name="merk" required>
+            </div>
+
+            <div class="form-group">
+                <div class="label">
+                    <label class="label-bold" for="stnk">Upload STNK</label>
+                </div>
+                <input class="input" type="file" id="stnk" name="stnk" required>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn-save">Daftar</button>
+                <button type="button" class="btn-cancel">Batal</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
