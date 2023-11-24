@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    height: 70vh;
+}
+
+header, article, aside, nav, footer {
+    padding: 2rem;
+ }
+
+header {
+    background-color: #ECF4D6;
+}
+
+article {
+    background-color: #9AD0C2;
+    width: 50%;
+}
+
+aside {
+    background-color: #2D9596;
+    width: 25%;
+}
+
+nav {
+    background-color: #7C93C3;
+    width: 25%;
+}
+
+footer {
+    background-color: #F0DBAF;
+}
